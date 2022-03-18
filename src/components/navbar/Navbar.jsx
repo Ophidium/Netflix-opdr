@@ -1,5 +1,7 @@
 // there is apperantly a more recent verion of Material-ui called @mui might need to upgade to that later
-import { Search, Notifications, ArrowDropDown } from "@material-ui/icons";
+import NotificationsIcon from '@mui/icons-material/Notifications';
+import SearchIcon from '@mui/icons-material/Search';
+import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import "./navbar.scss"
 
 const Navbar = () => {
@@ -21,15 +23,15 @@ const Navbar = () => {
                     <span>My List</span>
                 </div>
                 <div className="right">
-                    <Search className="icon" />
+                    <SearchIcon className="icon" />
                     <span>KID</span>
-                    <Notifications className="icon" />
+                    <NotificationsIcon className="icon" />
                     <img
                         src="https://i.imgur.com/m808mce.png"
                         alt=""
                     />
                     <div className="profile">
-                        <ArrowDropDown className="icon" />
+                        <ArrowDropDownIcon className="icon" />
                         <div className="options">
                             <span>Setting</span>
                             <span>Logout</span>
